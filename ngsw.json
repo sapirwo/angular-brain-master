@@ -1,0 +1,77 @@
+{
+  "configVersion": 1,
+  "timestamp": 1611334228287,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.4b8795577929c033a892.js",
+        "/manifest.webmanifest",
+        "/polyfills.8c151b8375e767ff858f.js",
+        "/runtime.0e49e2b53282f40c8925.js",
+        "/styles.e75fea5c093e394566a7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/imgs/brain-logo.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-144x144.png": "f69f40d5354ffaa2b2628450270dc583ea55b6f9",
+    "/assets/icons/icon-152x152.png": "b1bdc32b9f9a1fa4d78483ec272c99e45a41af48",
+    "/assets/icons/icon-192x192.png": "114060c697d0e4698703cb3ea7b4dc5bedf3ef16",
+    "/assets/icons/icon-72x72.png": "b1fdc124aaa02eb1bf0f1eb7c3e250c66c090d10",
+    "/assets/icons/icon-96x96.png": "b9c092900af07ed7c7682e6d7c200ba488c7d54f",
+    "/assets/imgs/brain-logo.svg": "e32c7a2fb0ebe611627070d020321b18ef8fc295",
+    "/favicon.ico": "a8758e99057e0c2537d5cabfdb24492cc684c382",
+    "/index.html": "d4e788975c32b7992644ecd23c23e8a946cf945c",
+    "/main.4b8795577929c033a892.js": "e73495e8a65ff9f54652de6bbc01284e58b0e90b",
+    "/manifest.webmanifest": "3906c2e10e4e84a32e3e81f3d8a6f47fc195881f",
+    "/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.e75fea5c093e394566a7.css": "5b0d94642910f9c5e9d9046352ce4bced4dc9584"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
